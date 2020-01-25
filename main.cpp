@@ -2,12 +2,14 @@
 
 int main()
 {
-    float cambio=0;
-    float euro=0;
-    std::cout << "Inserisci gli euro : ";
+    double cambio=0;
+    double euro=0;
+    double calcolo=0;
+    std::cout << "Inserisci la valuta : ";
     std::cin >> euro;
     std::cout << "Fattore di cambio : ";
     std::cin >> cambio;
-    std:: cout << "In dollari : " << euro*cambio << std::endl;
+    calcolo = euro*cambio;
+    std:: cout << "Nel cambio : " << calcolo;
     return 0;
 }
